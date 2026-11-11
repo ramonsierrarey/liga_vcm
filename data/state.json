@@ -1,0 +1,206 @@
+{
+ "team": "Feel Alcobendas",
+ "group": "Femenino · Oro · Fase 1 · Grupo B",
+ "fetched_at": "2026-11-11T00:57:36+01:00",
+ "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
+ "standings": [
+  {
+   "pos": 1,
+   "team": "Mix2",
+   "pj": 4,
+   "g3": 3,
+   "g2": 1,
+   "p1": 0,
+   "p0": 0,
+   "sf": 12,
+   "sc": 3,
+   "pf": 355,
+   "pc": 265,
+   "pts": 11
+  },
+  {
+   "pos": 2,
+   "team": "Gladiadoras",
+   "pj": 2,
+   "g3": 2,
+   "g2": 0,
+   "p1": 0,
+   "p0": 0,
+   "sf": 6,
+   "sc": 0,
+   "pf": 149,
+   "pc": 112,
+   "pts": 6
+  },
+  {
+   "pos": 3,
+   "team": "Chipirón",
+   "pj": 3,
+   "g3": 1,
+   "g2": 1,
+   "p1": 1,
+   "p0": 0,
+   "sf": 8,
+   "sc": 6,
+   "pf": 294,
+   "pc": 278,
+   "pts": 6
+  },
+  {
+   "pos": 4,
+   "team": "NewTeam",
+   "pj": 3,
+   "g3": 1,
+   "g2": 0,
+   "p1": 1,
+   "p0": 1,
+   "sf": 6,
+   "sc": 6,
+   "pf": 253,
+   "pc": 233,
+   "pts": 4
+  },
+  {
+   "pos": 5,
+   "team": "CV Ciudad de Guadalajara",
+   "pj": 3,
+   "g3": 0,
+   "g2": 1,
+   "p1": 1,
+   "p0": 1,
+   "sf": 6,
+   "sc": 8,
+   "pf": 276,
+   "pc": 300,
+   "pts": 3
+  },
+  {
+   "pos": 6,
+   "team": "VK Voley",
+   "pj": 2,
+   "g3": 1,
+   "g2": 0,
+   "p1": 0,
+   "p0": 1,
+   "sf": 3,
+   "sc": 4,
+   "pf": 137,
+   "pc": 160,
+   "pts": 3
+  },
+  {
+   "pos": 7,
+   "team": "Club Irlandesas",
+   "pj": 3,
+   "g3": 1,
+   "g2": 0,
+   "p1": 0,
+   "p0": 2,
+   "sf": 3,
+   "sc": 7,
+   "pf": 189,
+   "pc": 236,
+   "pts": 3
+  },
+  {
+   "pos": 8,
+   "team": "Feel Alcobendas",
+   "pj": 2,
+   "g3": 0,
+   "g2": 0,
+   "p1": 0,
+   "p0": 2,
+   "sf": 1,
+   "sc": 6,
+   "pf": 138,
+   "pc": 167,
+   "pts": 0
+  },
+  {
+   "pos": 9,
+   "team": "Plaza Castilla A",
+   "pj": 2,
+   "g3": 0,
+   "g2": 0,
+   "p1": 0,
+   "p0": 2,
+   "sf": 1,
+   "sc": 6,
+   "pf": 126,
+   "pc": 166,
+   "pts": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1772",
+   "home": "VK Voley",
+   "away": "Feel Alcobendas",
+   "date": "2026-10-25",
+   "time": "17:30",
+   "court": "Torrevilano",
+   "round": 2,
+   "result": {
+    "home": 3,
+    "away": 1,
+    "sets": [
+     "25-16",
+     "25-22",
+     "17-25",
+     "25-22"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1772",
+   "status": "jugado"
+  },
+  {
+   "id": "1769",
+   "home": "Feel Alcobendas",
+   "away": "Gladiadoras",
+   "date": "2026-11-01",
+   "time": "15:30",
+   "court": "Estrecho 3",
+   "round": 3,
+   "result": {
+    "home": 0,
+    "away": 3,
+    "sets": [
+     "15-25",
+     "19-25",
+     "19-25"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1769",
+   "status": "jugado"
+  },
+  {
+   "id": "1759",
+   "home": "Feel Alcobendas",
+   "away": "Plaza Castilla A",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "court": "Valdefuentes 3",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1759",
+   "status": "confirmado"
+  },
+  {
+   "id": "1752",
+   "home": "Club Irlandesas",
+   "away": "Feel Alcobendas",
+   "date": "2026-12-20",
+   "time": null,
+   "court": "",
+   "round": 4,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1752",
+   "status": "sin_hora"
+  }
+ ],
+ "notified": {
+  "1759": [
+   "confirmed"
+  ]
+ }
+}
