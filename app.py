@@ -7,7 +7,8 @@ import streamlit as st
 from vcm.logic import fmt_when, freeze_deadline, kickoff, opponent, schedule_status, title
 from vcm.config import TZ
 
-st.set_page_config(page_title="Feel Alcobendas · Liga VCM", page_icon="🏐", layout="centered")
+LOGO = Path(__file__).parent / "assets" / "logo.png"
+st.set_page_config(page_title="Feel Alcobendas · Liga VCM", page_icon=str(LOGO), layout="centered")
 
 STATE = Path(__file__).parent / "data" / "state.json"
 BADGE = {
@@ -24,7 +25,10 @@ def load() -> dict | None:
 
 
 data = load()
-st.title("🏐 Feel Alcobendas")
+logo_col, title_col = st.columns([1, 2], vertical_alignment="center")
+logo_col.image(str(LOGO), width="stretch")
+title_col.title("Liga VCM")
+title_col.caption("Femenino · Oro")
 if not data:
     st.warning("Aún no hay datos. Ejecuta `python check.py` o espera a la primera comprobación automática.")
     st.stop()
