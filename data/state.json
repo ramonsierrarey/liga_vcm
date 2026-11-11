@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-11T19:41:19+01:00",
+ "fetched_at": "2026-11-11T19:58:17+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -133,6 +133,111 @@
  ],
  "matches": [
   {
+   "id": "1677",
+   "home": "Mix2",
+   "away": "VK Voley",
+   "date": "2026-10-18",
+   "time": "11:30",
+   "court": "Estrecho 3",
+   "round": 1,
+   "result": {
+    "home": 3,
+    "away": 0,
+    "sets": [
+     "25-12",
+     "25-21",
+     "25-12"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1677",
+   "status": "jugado"
+  },
+  {
+   "id": "1680",
+   "home": "Club Irlandesas",
+   "away": "Plaza Castilla A",
+   "date": "2026-10-18",
+   "time": "15:40",
+   "court": "Valdefuentes 1",
+   "round": 1,
+   "result": {
+    "home": 3,
+    "away": 1,
+    "sets": [
+     "25-21",
+     "25-21",
+     "16-25",
+     "25-20"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1680",
+   "status": "jugado"
+  },
+  {
+   "id": "1678",
+   "home": "CV Ciudad de Guadalajara",
+   "away": "Chipirón",
+   "date": "2026-10-18",
+   "time": "16:50",
+   "court": "Newman 1",
+   "round": 1,
+   "result": {
+    "home": 2,
+    "away": 3,
+    "sets": [
+     "25-17",
+     "12-25",
+     "20-25",
+     "25-16",
+     "14-16"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1678",
+   "status": "jugado"
+  },
+  {
+   "id": "1773",
+   "home": "Club Irlandesas",
+   "away": "Gladiadoras",
+   "date": "2026-10-25",
+   "time": "09:30",
+   "court": "Richmond 1",
+   "round": 2,
+   "result": {
+    "home": 0,
+    "away": 3,
+    "sets": [
+     "23-25",
+     "21-24",
+     "15-25"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1773",
+   "status": "jugado"
+  },
+  {
+   "id": "1774",
+   "home": "CV Ciudad de Guadalajara",
+   "away": "NewTeam",
+   "date": "2026-10-25",
+   "time": "15:30",
+   "court": "Torrevilano",
+   "round": 2,
+   "result": {
+    "home": 3,
+    "away": 2,
+    "sets": [
+     "16-25",
+     "26-24",
+     "14-25",
+     "25-18",
+     "15-9"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1774",
+   "status": "jugado"
+  },
+  {
    "id": "1772",
    "home": "VK Voley",
    "away": "Feel Alcobendas",
@@ -151,6 +256,28 @@
     ]
    },
    "url": "https://www.voleibolcentromadrid.com/partidos/1772",
+   "status": "jugado"
+  },
+  {
+   "id": "1775",
+   "home": "Mix2",
+   "away": "Chipirón",
+   "date": "2026-10-25",
+   "time": "19:30",
+   "court": "Torrevilano",
+   "round": 2,
+   "result": {
+    "home": 3,
+    "away": 2,
+    "sets": [
+     "24-26",
+     "25-18",
+     "16-25",
+     "25-16",
+     "15-12"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1775",
    "status": "jugado"
   },
   {
@@ -174,6 +301,124 @@
    "status": "jugado"
   },
   {
+   "id": "1770",
+   "home": "Mix2",
+   "away": "Club Irlandesas",
+   "date": "2026-11-01",
+   "time": "19:30",
+   "court": "Estrecho 3",
+   "round": 3,
+   "result": {
+    "home": 3,
+    "away": 0,
+    "sets": [
+     "25-10",
+     "25-14",
+     "25-15"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1770",
+   "status": "jugado"
+  },
+  {
+   "id": "1771",
+   "home": "Chipirón",
+   "away": "NewTeam",
+   "date": "2026-11-02",
+   "time": "19:30",
+   "court": "Valdefuentes 1",
+   "round": 3,
+   "result": {
+    "home": 3,
+    "away": 1,
+    "sets": [
+     "23-25",
+     "25-22",
+     "25-18",
+     "25-12"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1771",
+   "status": "jugado"
+  },
+  {
+   "id": "1755",
+   "home": "CV Ciudad de Guadalajara",
+   "away": "Mix2",
+   "date": "2026-11-08",
+   "time": "19:10",
+   "court": "Newman 1",
+   "round": 4,
+   "result": {
+    "home": 1,
+    "away": 3,
+    "sets": [
+     "20-25",
+     "17-25",
+     "27-25",
+     "20-25"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1755",
+   "status": "jugado"
+  },
+  {
+   "id": "1753",
+   "home": "NewTeam",
+   "away": "Plaza Castilla A",
+   "date": "2026-11-09",
+   "time": "17:30",
+   "court": "Torrevilano",
+   "round": 4,
+   "result": {
+    "home": 3,
+    "away": 0,
+    "sets": [
+     "25-15",
+     "25-12",
+     "25-12"
+    ]
+   },
+   "url": "https://www.voleibolcentromadrid.com/partidos/1753",
+   "status": "jugado"
+  },
+  {
+   "id": "1745",
+   "home": "Gladiadoras",
+   "away": "Mix2",
+   "date": "2026-11-15",
+   "time": "09:30",
+   "court": "Estrecho 2",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1745",
+   "status": "confirmado"
+  },
+  {
+   "id": "1679",
+   "home": "Gladiadoras",
+   "away": "NewTeam",
+   "date": "2026-11-15",
+   "time": "11:30",
+   "court": "Estrecho 2",
+   "round": 1,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1679",
+   "status": "confirmado"
+  },
+  {
+   "id": "1758",
+   "home": "CV Ciudad de Guadalajara",
+   "away": "Club Irlandesas",
+   "date": "2026-11-15",
+   "time": "16:50",
+   "court": "Newman 2",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1758",
+   "status": "confirmado"
+  },
+  {
    "id": "1759",
    "home": "Feel Alcobendas",
    "away": "Plaza Castilla A",
@@ -184,6 +429,42 @@
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1759",
    "status": "confirmado"
+  },
+  {
+   "id": "1756",
+   "home": "Chipirón",
+   "away": "VK Voley",
+   "date": "2026-11-15",
+   "time": "18:40",
+   "court": "Newman 2",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1756",
+   "status": "confirmado"
+  },
+  {
+   "id": "1768",
+   "home": "VK Voley",
+   "away": "Plaza Castilla A",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "court": "Torrevilano",
+   "round": 3,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1768",
+   "status": "provisional"
+  },
+  {
+   "id": "1754",
+   "home": "Gladiadoras",
+   "away": "Chipirón",
+   "date": "2026-12-13",
+   "time": null,
+   "court": "",
+   "round": 4,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1754",
+   "status": "sin_hora"
   },
   {
    "id": "1752",
