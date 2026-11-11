@@ -15,6 +15,8 @@ def build_ics(data: dict, now) -> str:
         "X-WR-TIMEZONE:Europe/Madrid",
     ]
     for m in data["matches"]:
+        if data["team"] not in (m["home"], m["away"]):
+            continue
         ko = kickoff(m)
         if ko is None:
             continue

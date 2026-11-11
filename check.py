@@ -58,7 +58,7 @@ def main() -> int:
     now = datetime.now(TZ)
     try:
         new = scrape()
-        if not new["matches"]:
+        if not any(new["team"] in (m["home"], m["away"]) for m in new["matches"]):
             raise RuntimeError("La página no devuelve partidos del equipo")
     except Exception as exc:  # noqa: BLE001
         if old is not None and not old.get("scrape_error"):
@@ -72,7 +72,11 @@ def main() -> int:
         m["status"] = schedule_status(m, now)
     msgs = diff(old, new, now)
     if old is None:
-        new["notified"] = {m["id"]: ["confirmed"] for m in new["matches"] if m["status"] == "confirmado"}
+        new["notified"] = {
+            m["id"]: ["confirmed"]
+            for m in new["matches"]
+            if new["team"] in (m["home"], m["away"]) and m["status"] == "confirmado"
+        }
         msgs.append(
             f"✅ Vigilancia activada para {new['team']} ({new['group']}).\n"
             f"Puesto actual: {next(s['pos'] for s in new['standings'] if s['team'] == new['team'])}º."

@@ -66,6 +66,8 @@ def diff(old: dict | None, new: dict, now: datetime) -> list[str]:
         return True
 
     for m in new["matches"]:
+        if TEAM not in (m["home"], m["away"]):
+            continue
         mid = m["id"]
         prev = old_m.get(mid)
         status = schedule_status(m, now)

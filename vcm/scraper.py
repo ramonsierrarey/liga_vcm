@@ -108,7 +108,7 @@ def scrape() -> dict:
 
     matches = {}
     for m in group["matches"]:
-        if len(m["teams"]) != 2 or TEAM not in m["teams"]:
+        if len(m["teams"]) != 2:
             continue
         date, time = _parse_schedule(m["schedule"])
         mid = m["href"].rsplit("/", 1)[-1] if m["href"] else f'{date}-{"-".join(m["teams"])}'

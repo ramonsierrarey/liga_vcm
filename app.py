@@ -36,10 +36,11 @@ if not data:
 now = datetime.now(TZ)
 team = data["team"]
 matches = data["matches"]
+team_matches = [m for m in matches if team in (m["home"], m["away"])]
 st.caption(f"{data['group']} · actualizado {datetime.fromisoformat(data['fetched_at']):%d/%m/%Y %H:%M}")
 
 played = [m for m in matches if m.get("result")]
-upcoming = [m for m in matches if not m.get("result")]
+upcoming = [m for m in team_matches if not m.get("result")]
 upcoming.sort(key=lambda m: (m["date"] or "9999", m["time"] or ""))
 me = next(s for s in data["standings"] if s["team"] == team)
 
@@ -74,13 +75,38 @@ with tab_next:
     st.markdown("[📅 Calendario .ics](https://raw.githubusercontent.com/ramonsierrarey/liga_vcm/main/data/feel_alcobendas.ics)")
 
 with tab_res:
-    for m in reversed(played):
-        r = m["result"]
-        mine = r["home"] if m["home"] == team else r["away"]
-        theirs = r["away"] if m["home"] == team else r["home"]
-        icon = "✅" if mine > theirs else "❌"
-        with st.container(border=True):
-            st.markdown(f"{icon} **{title(m)}**  {r['home']}–{r['away']}  \n{fmt_when(m)} · {', '.join(r['sets'])}")
+    if played:
+        results = sorted(played, key=lambda m: (m["date"] or "", m["time"] or ""), reverse=True)
+        rows = []
+        team_titles = {title(m) for m in played if team in (m["home"], m["away"])}
+        for m in results:
+            r = m["result"]
+            score = f"{r['home']}–{r['away']}"
+            if team in (m["home"], m["away"]):
+                mine = r["home"] if m["home"] == team else r["away"]
+                theirs = r["away"] if m["home"] == team else r["home"]
+                score = f"{'✅' if mine > theirs else '❌'} {score}"
+            rows.append({
+                "Fecha": fmt_when(m),
+                "Partido": title(m),
+                "Resultado": score,
+                "Sets": ", ".join(r["sets"]),
+            })
+        df = pd.DataFrame(rows)
+        st.dataframe(
+            df.style.apply(
+                lambda row: [
+                    "background-color: #ffe9a8; color: #000"
+                    if row["Partido"] in team_titles else ""
+                    for _ in row
+                ],
+                axis=1,
+            ),
+            hide_index=True,
+            width="stretch",
+        )
+    else:
+        st.info("Aún no hay resultados en el grupo.")
 
 with tab_class:
     df = pd.DataFrame(data["standings"]).rename(
