@@ -12,6 +12,7 @@
 4. Actions > "Comprobar liga VCM" > Run workflow (la primera vez solo manda "Vigilancia activada").
 5. share.streamlit.io: nueva app con `app.py` de ese repo.
 6. El repositorio es público: el calendario se suscribe en `https://raw.githubusercontent.com/ramonsierrarey/liga_vcm/main/data/feel_alcobendas.ics`.
+7. App instalable con nombre e icono propios: `docs/` se publica con GitHub Pages en https://ramonsierrarey.github.io/liga_vcm/ (envuelve la web de Streamlit).
 
 Local: `pip install -r requirements.txt -r requirements-check.txt; python -m playwright install chromium; python check.py; streamlit run app.py`
 
