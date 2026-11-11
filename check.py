@@ -1,6 +1,7 @@
 """Comprueba la liga, avisa por Telegram de los cambios y guarda el estado."""
 from __future__ import annotations
 
+import base64
 import json
 import os
 import sys
@@ -21,15 +22,25 @@ ICS = DATA / "feel_alcobendas.ics"
 
 def send(text: str) -> None:
     token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
+    topic = os.getenv("NTFY_TOPIC")
     print(f"[aviso] {text}\n")
-    if not (token and chat):
-        return
-    r = requests.post(
-        f"https://api.telegram.org/bot{token}/sendMessage",
-        json={"chat_id": chat, "text": text, "disable_web_page_preview": True},
-        timeout=30,
-    )
-    r.raise_for_status()
+    if topic:
+        head, _, body = text.partition("\n")
+        title = "=?UTF-8?B?" + base64.b64encode(head.encode("utf-8")).decode() + "?="
+        r = requests.post(
+            f"https://ntfy.sh/{topic}",
+            data=(body or head).encode("utf-8"),
+            headers={"Title": title, "Priority": "high"},
+            timeout=30,
+        )
+        r.raise_for_status()
+    if token and chat:
+        r = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat, "text": text, "disable_web_page_preview": True},
+            timeout=30,
+        )
+        r.raise_for_status()
 
 
 def load_state() -> dict | None:
