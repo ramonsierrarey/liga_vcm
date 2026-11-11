@@ -32,4 +32,8 @@ jobs:
           git config user.name "vcm-bot"
           git config user.email "vcm-bot@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Actualiza datos de la liga" && git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualiza datos de la liga"
+            git pull --rebase -X theirs origin main
+            git push
+          fi
