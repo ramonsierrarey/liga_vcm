@@ -11,7 +11,7 @@
 3. Repo > Settings > Secrets > Actions: `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID`.
 4. Actions > "Comprobar liga VCM" > Run workflow (la primera vez solo manda "Vigilancia activada").
 5. share.streamlit.io: nueva app con `app.py` de ese repo.
-6. El repositorio es privado, así que el .ics (`data/feel_alcobendas.ics`) no tiene URL pública de suscripción.
+6. El repositorio es público: el calendario se suscribe en `https://raw.githubusercontent.com/ramonsierrarey/liga_vcm/main/data/feel_alcobendas.ics`.
 
 Local: `pip install -r requirements.txt -r requirements-check.txt; python -m playwright install chromium; python check.py; streamlit run app.py`
 

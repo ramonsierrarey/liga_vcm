@@ -67,6 +67,7 @@ with tab_next:
             st.markdown(f"**{opponent(m)}** · {'🏠' if m['home'] == team else '✈️'}  \n{fmt_when(m)}"
                         + (f" · {m['court']}" if m["court"] else ""))
             st.markdown(BADGE[schedule_status(m, now)])
+    st.markdown("[📅 Calendario .ics](https://raw.githubusercontent.com/ramonsierrarey/liga_vcm/main/data/feel_alcobendas.ics)")
 
 with tab_res:
     for m in reversed(played):
