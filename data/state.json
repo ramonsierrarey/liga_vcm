@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-13T02:47:03+01:00",
+ "fetched_at": "2026-11-13T10:28:07+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -424,7 +424,7 @@
    "away": "Plaza Castilla A",
    "date": "2026-11-15",
    "time": "17:30",
-   "court": "Valdefuentes 3",
+   "court": "Valdefuentes 1",
    "round": null,
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1759",
