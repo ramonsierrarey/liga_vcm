@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-15T07:16:49+01:00",
+ "fetched_at": "2026-11-15T15:42:23+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -221,7 +221,7 @@
    "away": "NewTeam",
    "date": "2026-10-25",
    "time": "15:30",
-   "court": "Torrevilano",
+   "court": "Torrevilano 1",
    "round": 2,
    "result": {
     "home": 3,
@@ -243,7 +243,7 @@
    "away": "Feel Alcobendas",
    "date": "2026-10-25",
    "time": "17:30",
-   "court": "Torrevilano",
+   "court": "Torrevilano 1",
    "round": 2,
    "result": {
     "home": 3,
@@ -264,7 +264,7 @@
    "away": "Chipirón",
    "date": "2026-10-25",
    "time": "19:30",
-   "court": "Torrevilano",
+   "court": "Torrevilano 1",
    "round": 2,
    "result": {
     "home": 3,
@@ -368,7 +368,7 @@
    "away": "Plaza Castilla A",
    "date": "2026-11-09",
    "time": "17:30",
-   "court": "Torrevilano",
+   "court": "Torrevilano 1",
    "round": 4,
    "result": {
     "home": 3,
@@ -448,7 +448,7 @@
    "away": "Plaza Castilla A",
    "date": "2026-11-21",
    "time": "09:00",
-   "court": "Torrevilano",
+   "court": "Torrevilano 1",
    "round": 3,
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1768",
@@ -483,6 +483,7 @@
   "1759": [
    "confirmed",
    "reminder"
-  ]
+  ],
+  "1772": []
  }
 }
