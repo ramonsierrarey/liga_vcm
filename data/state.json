@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-15T21:21:46+01:00",
+ "fetched_at": "2026-11-16T01:57:50+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -35,16 +35,16 @@
   {
    "pos": 3,
    "team": "Chipirón",
-   "pj": 3,
-   "g3": 1,
+   "pj": 4,
+   "g3": 2,
    "g2": 1,
    "p1": 1,
    "p0": 0,
-   "sf": 8,
-   "sc": 6,
-   "pf": 294,
-   "pc": 278,
-   "pts": 6
+   "sf": 11,
+   "sc": 7,
+   "pf": 392,
+   "pc": 363,
+   "pts": 9
   },
   {
    "pos": 4,
@@ -76,20 +76,6 @@
   },
   {
    "pos": 6,
-   "team": "VK Voley",
-   "pj": 2,
-   "g3": 1,
-   "g2": 0,
-   "p1": 0,
-   "p0": 1,
-   "sf": 3,
-   "sc": 4,
-   "pf": 137,
-   "pc": 160,
-   "pts": 3
-  },
-  {
-   "pos": 7,
    "team": "Feel Alcobendas",
    "pj": 3,
    "g3": 1,
@@ -100,6 +86,20 @@
    "sc": 6,
    "pf": 213,
    "pc": 214,
+   "pts": 3
+  },
+  {
+   "pos": 7,
+   "team": "VK Voley",
+   "pj": 3,
+   "g3": 1,
+   "g2": 0,
+   "p1": 0,
+   "p0": 2,
+   "sf": 4,
+   "sc": 7,
+   "pf": 222,
+   "pc": 258,
    "pts": 3
   },
   {
@@ -138,7 +138,7 @@
    "away": "VK Voley",
    "date": "2026-10-18",
    "time": "11:30",
-   "court": "Estrecho 3",
+   "court": "Estrecho 3Abre en una ventana nueva.",
    "round": 1,
    "result": {
     "home": 3,
@@ -158,7 +158,7 @@
    "away": "Plaza Castilla A",
    "date": "2026-10-18",
    "time": "15:40",
-   "court": "Valdefuentes 1",
+   "court": "Valdefuentes 1Abre en una ventana nueva.",
    "round": 1,
    "result": {
     "home": 3,
@@ -179,7 +179,7 @@
    "away": "Chipirón",
    "date": "2026-10-18",
    "time": "16:50",
-   "court": "Newman 1",
+   "court": "Newman 1Abre en una ventana nueva.",
    "round": 1,
    "result": {
     "home": 2,
@@ -201,7 +201,7 @@
    "away": "Gladiadoras",
    "date": "2026-10-25",
    "time": "09:30",
-   "court": "Richmond 1",
+   "court": "Richmond 1Abre en una ventana nueva.",
    "round": 2,
    "result": {
     "home": 0,
@@ -221,7 +221,7 @@
    "away": "NewTeam",
    "date": "2026-10-25",
    "time": "15:30",
-   "court": "Torrevilano 1",
+   "court": "Torrevilano 1Abre en una ventana nueva.",
    "round": 2,
    "result": {
     "home": 3,
@@ -243,7 +243,7 @@
    "away": "Feel Alcobendas",
    "date": "2026-10-25",
    "time": "17:30",
-   "court": "Torrevilano 1",
+   "court": "Torrevilano 1Abre en una ventana nueva.",
    "round": 2,
    "result": {
     "home": 3,
@@ -264,7 +264,7 @@
    "away": "Chipirón",
    "date": "2026-10-25",
    "time": "19:30",
-   "court": "Torrevilano 1",
+   "court": "Torrevilano 1Abre en una ventana nueva.",
    "round": 2,
    "result": {
     "home": 3,
@@ -286,7 +286,7 @@
    "away": "Gladiadoras",
    "date": "2026-11-01",
    "time": "15:30",
-   "court": "Estrecho 3",
+   "court": "Estrecho 3Abre en una ventana nueva.",
    "round": 3,
    "result": {
     "home": 0,
@@ -306,7 +306,7 @@
    "away": "Club Irlandesas",
    "date": "2026-11-01",
    "time": "19:30",
-   "court": "Estrecho 3",
+   "court": "Estrecho 3Abre en una ventana nueva.",
    "round": 3,
    "result": {
     "home": 3,
@@ -326,7 +326,7 @@
    "away": "NewTeam",
    "date": "2026-11-02",
    "time": "19:30",
-   "court": "Valdefuentes 1",
+   "court": "Valdefuentes 1Abre en una ventana nueva.",
    "round": 3,
    "result": {
     "home": 3,
@@ -347,7 +347,7 @@
    "away": "Mix2",
    "date": "2026-11-08",
    "time": "19:10",
-   "court": "Newman 1",
+   "court": "Newman 1Abre en una ventana nueva.",
    "round": 4,
    "result": {
     "home": 1,
@@ -368,7 +368,7 @@
    "away": "Plaza Castilla A",
    "date": "2026-11-09",
    "time": "17:30",
-   "court": "Torrevilano 1",
+   "court": "Torrevilano 1Abre en una ventana nueva.",
    "round": 4,
    "result": {
     "home": 3,
@@ -388,7 +388,7 @@
    "away": "Mix2",
    "date": "2026-11-15",
    "time": "09:30",
-   "court": "Richmond 2",
+   "court": "Richmond 2Abre en una ventana nueva.",
    "round": 9,
    "result": {
     "home": 1,
@@ -409,7 +409,7 @@
    "away": "NewTeam",
    "date": "2026-11-15",
    "time": "11:30",
-   "court": "Richmond 2",
+   "court": "Richmond 2Abre en una ventana nueva.",
    "round": 1,
    "result": {
     "home": 3,
@@ -430,7 +430,7 @@
    "away": "Club Irlandesas",
    "date": "2026-11-15",
    "time": "16:50",
-   "court": "Newman 2",
+   "court": "Newman 2Abre en una ventana nueva.",
    "round": 5,
    "result": {
     "home": 3,
@@ -451,7 +451,7 @@
    "away": "Plaza Castilla A",
    "date": "2026-11-15",
    "time": "17:30",
-   "court": "Valdefuentes 1",
+   "court": "Valdefuentes 1Abre en una ventana nueva.",
    "round": 5,
    "result": {
     "home": 3,
@@ -471,11 +471,20 @@
    "away": "VK Voley",
    "date": "2026-11-15",
    "time": "18:40",
-   "court": "Newman 2",
+   "court": "Newman 2Abre en una ventana nueva.",
    "round": 5,
-   "result": null,
+   "result": {
+    "home": 3,
+    "away": 1,
+    "sets": [
+     "25-20",
+     "23-25",
+     "25-18",
+     "25-22"
+    ]
+   },
    "url": "https://www.voleibolcentromadrid.com/partidos/1756",
-   "status": "confirmado"
+   "status": "jugado"
   },
   {
    "id": "1768",
@@ -483,10 +492,58 @@
    "away": "Plaza Castilla A",
    "date": "2026-11-21",
    "time": "09:00",
-   "court": "Torrevilano 1",
+   "court": "Torrevilano 1Abre en una ventana nueva.",
    "round": 3,
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1768",
+   "status": "provisional"
+  },
+  {
+   "id": "1763",
+   "home": "Gladiadoras",
+   "away": "CV Ciudad de Guadalajara",
+   "date": "2026-11-22",
+   "time": "11:30",
+   "court": "Estrecho 1Abre en una ventana nueva.",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1763",
+   "status": "provisional"
+  },
+  {
+   "id": "1760",
+   "home": "Club Irlandesas",
+   "away": "VK Voley",
+   "date": "2026-11-22",
+   "time": "13:10",
+   "court": "Newman 3Abre en una ventana nueva.",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1760",
+   "status": "provisional"
+  },
+  {
+   "id": "1761",
+   "home": "Chipirón",
+   "away": "Feel Alcobendas",
+   "date": "2026-11-22",
+   "time": "18:40",
+   "court": "Newman 1Abre en una ventana nueva.",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1761",
+   "status": "provisional"
+  },
+  {
+   "id": "1762",
+   "home": "Plaza Castilla A",
+   "away": "Mix2",
+   "date": "2026-11-22",
+   "time": "20:30",
+   "court": "Newman 3Abre en una ventana nueva.",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1762",
    "status": "provisional"
   },
   {
@@ -564,9 +621,9 @@
  ],
  "notified": {
   "1759": [
-   "confirmed",
-   "reminder"
+   "confirmed"
   ],
-  "1772": []
+  "1772": [],
+  "1769": []
  }
 }
