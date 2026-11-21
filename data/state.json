@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-21T18:24:26+01:00",
+ "fetched_at": "2026-11-22T00:07:20+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -626,7 +626,8 @@
   "1772": [],
   "1769": [],
   "1761": [
-   "confirmed"
+   "confirmed",
+   "reminder"
   ],
   "1752": []
  }
