@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-23T03:37:22+01:00",
+ "fetched_at": "2026-11-23T13:18:24+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -596,8 +596,8 @@
    "home": "NewTeam",
    "away": "VK Voley",
    "date": "2026-11-29",
-   "time": "11:30",
-   "court": "Torrevilano 1Abre en una ventana nueva.",
+   "time": "09:30",
+   "court": "Greenfield 1Abre en una ventana nueva.",
    "round": null,
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1764",
@@ -616,18 +616,6 @@
    "status": "provisional"
   },
   {
-   "id": "1766",
-   "home": "Feel Alcobendas",
-   "away": "CV Ciudad de Guadalajara",
-   "date": "2026-11-29",
-   "time": "17:30",
-   "court": "Richmond 3Abre en una ventana nueva.",
-   "round": null,
-   "result": null,
-   "url": "https://www.voleibolcentromadrid.com/partidos/1766",
-   "status": "provisional"
-  },
-  {
    "id": "1767",
    "home": "Plaza Castilla A",
    "away": "Gladiadoras",
@@ -637,6 +625,18 @@
    "round": null,
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1767",
+   "status": "provisional"
+  },
+  {
+   "id": "1766",
+   "home": "Feel Alcobendas",
+   "away": "CV Ciudad de Guadalajara",
+   "date": "2026-11-29",
+   "time": "19:30",
+   "court": "Richmond 3Abre en una ventana nueva.",
+   "round": null,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1766",
    "status": "provisional"
   },
   {
@@ -722,6 +722,7 @@
    "confirmed",
    "reminder"
   ],
-  "1752": []
+  "1752": [],
+  "1766": []
  }
 }
