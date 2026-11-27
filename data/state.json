@@ -1,7 +1,7 @@
 {
  "team": "Feel Alcobendas",
  "group": "Femenino · Oro · Fase 1 · Grupo B",
- "fetched_at": "2026-11-26T20:33:15+01:00",
+ "fetched_at": "2026-11-27T03:47:37+01:00",
  "source": "https://www.voleibolcentromadrid.com/liga?gender=F&level=ORO&status=all",
  "standings": [
   {
@@ -640,6 +640,18 @@
    "status": "confirmado"
   },
   {
+   "id": "1752",
+   "home": "Club Irlandesas",
+   "away": "Feel Alcobendas",
+   "date": "2026-11-30",
+   "time": "21:30",
+   "court": "Luis Buñuel · Campo voleibol",
+   "round": 4,
+   "result": null,
+   "url": "https://www.voleibolcentromadrid.com/partidos/1752",
+   "status": "provisional"
+  },
+  {
    "id": "1754",
    "home": "Gladiadoras",
    "away": "Chipirón",
@@ -697,18 +709,6 @@
    "round": 9,
    "result": null,
    "url": "https://www.voleibolcentromadrid.com/partidos/1746",
-   "status": "provisional"
-  },
-  {
-   "id": "1752",
-   "home": "Club Irlandesas",
-   "away": "Feel Alcobendas",
-   "date": "2026-12-20",
-   "time": "19:30",
-   "court": "Richmond 3Abre en una ventana nueva.",
-   "round": 4,
-   "result": null,
-   "url": "https://www.voleibolcentromadrid.com/partidos/1752",
    "status": "provisional"
   }
  ],
